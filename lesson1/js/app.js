@@ -12,3 +12,18 @@ console.log(me);
 
 const newMe = `I'm ${fName} , ${job}, i'm ${year - birthDay} age`
 console.log(newMe);
+
+
+
+//! if else statiments
+
+const myAge = 19
+const yearsLesft = 18 - myAge;
+if(myAge >= 18) {
+    console.log("haydolaman");
+}
+else {
+    console.log("uxlaaa");
+}
+
+myAge  >= 18 ? console.log("im ready") : console.log("okay");;
