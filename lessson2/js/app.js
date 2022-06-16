@@ -62,3 +62,20 @@ console.log(...arrSpread);
 
 const newCategory = [...clubs.categories , "Barsa"]
 console.log(newCategory);
+
+
+//!function declaration
+
+function calcAge1(brithYear) {
+    return 2022 - brithYear
+}
+const age1 = calcAge1(2003)
+console.log(age1);
+
+
+//!function expresssion and arrow function
+
+const calcAge2  = (brithYear) => {
+    return 2022 - brithYear
+}
+
